@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jemaats",
+  "info": {
+    "name": "Jemaat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "namaLengkap": {
+      "type": "string"
+    },
+    "tanggalLahir": {
+      "type": "datetime"
+    },
+    "rayon": {
+      "type": "string"
+    }
+  }
+}

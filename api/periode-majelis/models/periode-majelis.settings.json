@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "periode_majelis",
+  "info": {
+    "name": "PeriodeMajelis"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "periode": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/majelis",
+      "handler": "majelis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/majelis/count",
+      "handler": "majelis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/majelis/:id",
+      "handler": "majelis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/majelis",
+      "handler": "majelis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/majelis/:id",
+      "handler": "majelis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/majelis/:id",
+      "handler": "majelis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

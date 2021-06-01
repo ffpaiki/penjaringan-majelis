@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kabar_gerejas",
+  "info": {
+    "name": "Berita",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Isi": {
+      "type": "richtext"
+    },
+    "Penulis": {
+      "type": "string"
+    },
+    "kabar_gereja_komentars": {
+      "collection": "kabar-gereja-komentar",
+      "via": "kabar_gereja"
+    }
+  }
+}

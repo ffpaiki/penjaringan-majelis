@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kabar-gereja-komentars",
+      "handler": "kabar-gereja-komentar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kabar-gereja-komentars/count",
+      "handler": "kabar-gereja-komentar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kabar-gereja-komentars/:id",
+      "handler": "kabar-gereja-komentar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kabar-gereja-komentars",
+      "handler": "kabar-gereja-komentar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kabar-gereja-komentars/:id",
+      "handler": "kabar-gereja-komentar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kabar-gereja-komentars/:id",
+      "handler": "kabar-gereja-komentar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

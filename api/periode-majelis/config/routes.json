@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/periode-majelis",
+      "handler": "periode-majelis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/periode-majelis/count",
+      "handler": "periode-majelis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/periode-majelis/:id",
+      "handler": "periode-majelis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/periode-majelis",
+      "handler": "periode-majelis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/periode-majelis/:id",
+      "handler": "periode-majelis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/periode-majelis/:id",
+      "handler": "periode-majelis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

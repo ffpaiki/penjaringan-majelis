@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kabar_gereja_komentars",
+  "info": {
+    "name": "Komentar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "komentator": {
+      "type": "string"
+    },
+    "komentar": {
+      "type": "richtext"
+    },
+    "kabar_gereja": {
+      "via": "kabar_gereja_komentars",
+      "model": "kabar-gereja"
+    }
+  }
+}

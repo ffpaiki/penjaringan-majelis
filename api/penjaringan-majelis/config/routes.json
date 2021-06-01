@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/penjaringan-majelis",
+      "handler": "penjaringan-majelis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penjaringan-majelis/count",
+      "handler": "penjaringan-majelis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/penjaringan-majelis/:id",
+      "handler": "penjaringan-majelis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/penjaringan-majelis",
+      "handler": "penjaringan-majelis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/penjaringan-majelis/:id",
+      "handler": "penjaringan-majelis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/penjaringan-majelis/:id",
+      "handler": "penjaringan-majelis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

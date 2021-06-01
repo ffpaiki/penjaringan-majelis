@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kabar-gerejas",
+      "handler": "kabar-gereja.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kabar-gerejas/count",
+      "handler": "kabar-gereja.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kabar-gerejas/:id",
+      "handler": "kabar-gereja.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kabar-gerejas",
+      "handler": "kabar-gereja.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kabar-gerejas/:id",
+      "handler": "kabar-gereja.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kabar-gerejas/:id",
+      "handler": "kabar-gereja.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

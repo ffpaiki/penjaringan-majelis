@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penjaringan_majelis",
+  "info": {
+    "name": "PenjaringanMajelis",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "jemaat": {
+      "model": "jemaat"
+    },
+    "CalonMajelis": {
+      "type": "boolean",
+      "default": false
+    },
+    "MajelisTerpilih": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "majelis",
+  "info": {
+    "name": "Majelis",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "jabatan": {
+      "type": "enumeration",
+      "enum": [
+        "Penatua",
+        "Syamas"
+      ]
+    },
+    "rayon": {
+      "model": "rayon"
+    },
+    "periode": {
+      "model": "periode-majelis"
+    },
+    "jemaat": {
+      "model": "jemaat"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rayons",
+  "info": {
+    "name": "Rayon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Rayon": {
+      "type": "string"
+    },
+    "koordinator": {
+      "model": "majelis"
+    }
+  }
+}
